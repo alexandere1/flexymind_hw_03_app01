@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="btnExit_Text">Выход</string>
+    <string name="btnRegister_Text">Регистация...</string>
+    <string name="title_activity_user_data">Данные пользователя</string>
+    <string name="action_settings">Настройки</string>
+
+</resources>

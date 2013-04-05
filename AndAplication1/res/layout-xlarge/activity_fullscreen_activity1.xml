@@ -19,7 +19,7 @@
         android:keepScreenOn="true"
         android:text="@string/dummy_content"
         android:textColor="#33b5e5"
-        android:textSize="50sp"
+        android:textSize="100dp"
         android:textStyle="bold" />
 
     <!--
@@ -49,16 +49,20 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="btnExit_onClick"
-                android:text="@string/btnExit_Text" />
+                android:text="@string/btnExit_Text"
+                android:textSize="50sp" />
+
         </LinearLayout>
 
         <Button
             android:id="@+id/btnRegister"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="95dp"
             android:layout_gravity="center_vertical"
             android:onClick="btnRegister_onClick"
-            android:text="@string/btnRegister_Text" />
+            android:text="@string/btnRegister_Text"
+            android:textSize="50sp" />
+
     </FrameLayout>
 
 </FrameLayout>

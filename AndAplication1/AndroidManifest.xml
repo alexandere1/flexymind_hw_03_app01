@@ -24,6 +24,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.andaplication1.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName="com.example.andaplication1.FullscreenActivity1"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.andaplication1.FullscreenActivity1" />
+        </activity>
+        <activity
+            android:name="com.example.andaplication1.UserData"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_user_data"
+            android:parentActivityName="com.example.andaplication1.FullscreenActivity1" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.andaplication1.FullscreenActivity1" />
+        </activity>
     </application>
 
 </manifest>
