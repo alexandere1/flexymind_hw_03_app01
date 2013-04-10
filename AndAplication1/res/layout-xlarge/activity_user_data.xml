@@ -37,25 +37,25 @@
         android:id="@+id/chkHobbieChess"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckBox" />
+        android:text="@string/chkHobbieChess_Text" />
 
     <CheckBox
         android:id="@+id/chkHobbieMovie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckBox" />
+        android:text="@string/chkHobbieMovie_Text" />
 
     <CheckBox
         android:id="@+id/chkHobbieBooks"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckBox" />
+        android:text="@string/chkHobbieBooks_Text" />
 
     <CheckBox
         android:id="@+id/chkHobbieBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckBox" />
+        android:text="@string/chkHobbieBox_Text" />
 
     <Button
         android:id="@+id/btnOK"
