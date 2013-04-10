@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndAplication1</string>
+    <string name="dummy_button">DUMMY\nCONTENT</string>
+    <string name="dummy_content"></string>
+    <string name="btnExit_Text">Exit</string>
+    <string name="btnOK_Text">OK</string>
+    <string name="btnRegister_Text">Register...</string>
+    <string name="title_activity_user_data">UserData</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
