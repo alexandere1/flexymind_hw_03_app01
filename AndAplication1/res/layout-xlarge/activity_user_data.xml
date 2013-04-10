@@ -34,25 +34,25 @@
     </ExpandableListView>
 
     <CheckBox
-        android:id="@+id/checkBox1"
+        android:id="@+id/chkHobbieChess"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CheckBox" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/chkHobbieMovie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CheckBox" />
 
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/chkHobbieBooks"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CheckBox" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/chkHobbieBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CheckBox" />

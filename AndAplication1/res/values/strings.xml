@@ -10,5 +10,16 @@
     <string name="title_activity_user_data">UserData</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+    <string-array name="cities_array">
+        <item>St-Petersburg</item>
+        <item>Moscow</item>
+        <item>London</item>
+        <item>New York</item>
+    </string-array>
+    <string name="txtHobbies_Text">Hobbies:</string>
+    <string name="chkHobbieChess_Text">Chess</string>
+    <string name="chkHobbieMovie_Text">Movie</string>
+    <string name="chkHobbieBooks_Text">Books</string>
+    <string name="chkHobbieBox_Text">Box</string>
+        
 </resources>

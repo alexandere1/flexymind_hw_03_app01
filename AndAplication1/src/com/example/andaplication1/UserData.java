@@ -5,18 +5,30 @@ import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 import android.support.v4.app.NavUtils;
 import android.annotation.TargetApi;
 import android.os.Build;
 
 public class UserData extends Activity {
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_user_data);
 		// Show the Up button in the action bar.
 		setupActionBar();
+		
+		Spinner _spinnerCity = (Spinner) findViewById(R.id.spinnerCity);
+		// Create an ArrayAdapter using the string array and a default spinner layout
+		ArrayAdapter<CharSequence> _arrayAdapter = ArrayAdapter.createFromResource(
+				this,
+		        R.array.cities_array, 
+		        android.R.layout.simple_spinner_item);
+		// Specify the layout to use when the list of choices appears
+		_arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+		// Apply the adapter to the spinner
+		_spinnerCity.setAdapter(_arrayAdapter);
 	}
 
 	/**
@@ -56,5 +68,4 @@ public class UserData extends Activity {
 	public void btnOK_onClick(View view) {
 		finish();
 	}
-
 }
